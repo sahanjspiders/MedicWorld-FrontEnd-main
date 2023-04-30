@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background: linear-gradient(135deg,  rgb(0, 125, 158,0.45), rgb(0, 125, 158,0.45)), url("/public/health1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.outer {
+    /* background: transparent;
+    border: 2px solid hsla(300, 7%, 97%, 0.65);
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 30px hsl(0, 0%, 100%, 0.5); */
+    background:linear-gradient(135deg,  rgb(0, 125, 158,0.7), rgb(0, 125, 158,0.7));
+    box-shadow: 0 6px 16px 0 rgb(75 75 75 / 38%);
+    border: 1.8px solid #ffc107;
+    border-radius: 10px;
+}
+.imglogo{
+    /* background:linear-gradient(135deg, hsla(328, 97%, 54%, 0.7), hsl(240, 97%, 55%, 0.7)),url("/public/health.jpg") ;
+    background-repeat: repeat;
+    background-size: 100% 100%; */
+}
+.form {
+    background: transparent;
+    border: 0;
+    border-left: 2px solid hsla(300, 7%, 97%, 0.65);
+    /* backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 30px hsl(0, 0%, 100%,0.5); */
+    width: 45%;
+}
+.name,
+.mail,
+.pwd,
+.age,
+.pincode,
+.number,
+.button,
+.gender,.otp{
+    width: 100%;
+    padding-top: 22px;
+    position: relative;
+}
+form .mail button,form .otp button{
+    position: absolute;
+    right:1px;
+    height: 44px;
+}
+
+form .page1 i {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+form .inputs div {
+    padding-top: 12px;
+    position: relative;
+}
+
+form .inputs div i {
+    position: absolute;
+    left: 5px;
+    top: 38%;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+form .add div button {
+    width: 30%;
+}
+
+form .page1 input {
+    padding: 8px 0px 8px 45px;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: system-ui;
+    color: white;
+    background: transparent;
+    border: none;
+    border: 1.6px solid hsl(0, 8%, 91%, 0.5);
+    border-radius:7px;
+    outline: none;
+    width: 100%;
+}
+
+form div input[type=radio] {
+    width: 15px;
+}
+
+form div button {
+    width: 35%;
+}
+
+
+::-webkit-input-placeholder {
+    color: white !important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.sugar,
+.bp {
+    width: 45%;
+}
+form .add .generic{
+    margin-top:20px;
+}
+form .add .generic div input{
+    padding: 12px 0px 12px 45px !important;
+    color: white !important;
+ 
+}
+form .add .generic div{
+position: relative;
+}
+form .add .generic div i{
+    position: absolute;
+    left: 15px;
+    top: 23%;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.imglogo img{
+    width: 85%;
+}
+

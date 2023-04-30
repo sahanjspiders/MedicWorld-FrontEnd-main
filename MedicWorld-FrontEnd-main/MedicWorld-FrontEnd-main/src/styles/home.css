@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.medicheader {
+    background: linear-gradient(135deg, rgb(0, 125, 158,0.45), rgb(0, 125, 158,0.45)), url(/public/health1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+
+.medicnav .ask h5 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 75px 40px;
+}
+
+.medicnav h2 {
+    position: relative;
+    bottom: 17px;
+}
+
+.medicnav i {
+    color: oldlace;
+    font-size: 50px;
+    position: relative;
+    top: 3px;
+}
+
+.medicnav h2:hover {
+    cursor: pointer;
+    text-decoration: 2.5px underline solid #a9deec;
+}
+
+.mediclogin form input[type=text] {
+    padding: 5px 0px 5px 30px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid hsl(193, 85%, 34%, 0.45);
+    outline: #0d82a1;
+    color: rgb(145, 141, 141);
+
+}
+
+.mediclogin form input[type=text]::-webkit-input-placeholder {
+    color: #0d82a1 !important;
+}
+
+.mediclogin .abcd {
+    background: #0d82a1;
+    box-shadow: 0 6px 16px 0 rgb(75 75 75 / 38%);
+    width: 305px;
+}
+
+.mediclogin form input[type=number] {
+    padding: 5px 97px 5px 30px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid hsl(193, 85%, 34%, 0.45);
+    outline: #0d82a1;
+    color: rgb(145, 141, 141);
+
+}
+
+.mediclogin form input[type=number]::-webkit-input-placeholder {
+    color: #0d82a1 !important;
+}
+.mediclogin form .password{
+    position: relative;
+}
+.mediclogin form .password i{
+    position: absolute;
+    left: 2px;
+    top: 12%;
+    font-size: 25px;
+}
+
+.mediclogin .verifyotp {
+    position: relative;
+}
+
+.mediclogin .verifyotp button {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border: transparent;
+    background-color: #ffc107;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.mediclogin .email {
+    position: relative;
+}
+
+.mediclogin .email i {
+    position: absolute;
+    left: 2px;
+    top: 12%;
+    font-size: 25px;
+}
+
+.content {
+    position: relative;
+}
+.contentright{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.contentleft{
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+
+.Oncology {
+    background: url(/public/Oncology.jpg);
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*  */
+.svg-icons1 .centers-icons {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #0d82a1;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.svg-icons1 .centers-icons:hover {
+    background-color: #0d82a1;
+    cursor: pointer;
+    /* filter: brightness(3);
+    transition:3s; */
+}
+
+.centers-icons:hover img {
+    filter: brightness(3);
+    /* transition:3s; */
+}
+
+/*  */
+.covidsafe .covidcard {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 35px;
+    row-gap: 20px;
+}
+
+.covidsafe .covidcard .covidcontent {
+    background-color: aliceblue;
+    /* height: 270px; */
+    border: 1px solid skyblue;
+}
+/* .consultlogin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    display: block;
+}
+@media(max-width:700px)
+{
+    .box{
+        display: none;
+    }
+} */
